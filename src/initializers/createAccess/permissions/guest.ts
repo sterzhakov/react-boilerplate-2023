@@ -18,7 +18,7 @@ const GUEST_PERMISSIONS: AppPermissions  = {
   },
   modules: {
     posts: {
-      search: false,
+      search: true,
     }
   }
 }
