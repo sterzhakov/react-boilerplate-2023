@@ -32,6 +32,7 @@ const FormCreate: React.FC<Props> = () => {
         children: t('pages.PostsCreate.modules.FormCreate.saveButton')
       }}
       formProps={{
+        initialValues: { userId: 10 },
         onFinish: async (formValues) => {
           const result = await createPost(formValues)
           if ('error' in result) return
