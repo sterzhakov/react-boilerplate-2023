@@ -1,0 +1,17 @@
+@import 'src/styles/common.scss';
+
+.wrapper {
+
+}
+
+.wrapperWithError {
+  border: 2px solid $alertErrorBorderColor;
+}
+
+.alert {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid $alertErrorBorderColor;
+  border-radius: 0;
+}

@@ -1,0 +1,14 @@
+{
+  "extends": [
+	  "eslint:recommended",
+	  "plugin:react/recommended",
+	  "plugin:@typescript-eslint/recommended",
+	  "prettier"
+	],
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true
+}
+

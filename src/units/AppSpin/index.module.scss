@@ -1,0 +1,18 @@
+@import 'src/styles/common.scss';
+
+.wrapper {
+  flex-direction: column;
+  display: flex;
+  padding: 50px;
+  gap: 10px
+}
+
+.spin {
+  align-self: center;
+  width: 100%;
+}
+
+.content {
+  align-self: center;
+  color: $spinColor;
+}

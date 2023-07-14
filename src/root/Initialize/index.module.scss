@@ -1,0 +1,10 @@
+@import 'src/styles/common.scss';
+
+.spin {
+  color: $spinColor;
+  animation: fadein 1s ease-in;
+  justify-content: center;
+  align-items: center;
+}
+
+

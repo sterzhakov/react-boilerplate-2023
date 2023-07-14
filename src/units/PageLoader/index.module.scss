@@ -1,0 +1,17 @@
+@import 'src/styles/common.scss';
+
+.wrapper {}
+
+.loaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.childrenWrapper {
+  display: inherit;
+}
+
+.childrenWrapperHidden {
+  display: none;
+}
