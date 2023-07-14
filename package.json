@@ -9,6 +9,7 @@
     "dev": "webpack serve --config=webpack/development.js",
     "build": "yarn build:standalone; yarn build:module-federation",
     "build:standalone": "webpack --config=webpack/standalone.js",
+    "build:github-pages": "webpack --config=webpack/github-pages.js",
     "build:module-federation": "webpack --config=webpack/module-federation.js",
     "test": "jest --watch",
     "lint": "eslint --ext .js --ignore-path .gitignore .",
