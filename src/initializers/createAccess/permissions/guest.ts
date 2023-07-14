@@ -8,12 +8,12 @@ const GUEST_PERMISSIONS: AppPermissions  = {
   routes: {
     [AppRoutePaths.home]: true,
     [AppRoutePaths.postsList]: true,
-    [AppRoutePaths.postsCreate]: false,
+    [AppRoutePaths.postsCreate]: true,
     [AppRoutePaths.postsUpdate]: false,
     [AppRoutePaths.postsShow]: true,
     [AppRoutePaths.usersLogin]: true,
-    [AppRoutePaths.usersLogout]: false,
-    [AppRoutePaths.settings]: false,
+    [AppRoutePaths.usersLogout]: true,
+    [AppRoutePaths.settings]: true,
     [AppRoutePaths.notFound]: true,
   },
   modules: {

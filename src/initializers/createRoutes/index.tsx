@@ -45,12 +45,8 @@ export default function createRoutes(): RouteObject[] {
       errorElement: <RouterErrorBoundary />,
     },
       route({
-        path: AppRoutes.home.path,
-        index: true,
-        element: 'Home',
-      }),
-      route({
         path: AppRoutes.postsList.path,
+        index: true,
         element: <PostsList />,
       },
         route({

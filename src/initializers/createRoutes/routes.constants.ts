@@ -2,7 +2,7 @@ export enum AppRouteVariables { postId = 'postId' }
 export enum AppRoutePaths {
   // Home
   home = '/',
-  postsList = '/posts',
+  postsList = '/',
   postsCreate = '/posts/create',
   postsUpdate = `/posts/update/:${AppRouteVariables.postId}`,
   postsShow = `/posts/show/:${AppRouteVariables.postId}`,
